@@ -1,3 +1,3 @@
-# Addon Name
+# ESN Rare
 
-This is the repository for <Addon Name>. Modified for Ascension.gg. 
+This is the repository for ESN Rare. Modified for Ascension.gg. 
