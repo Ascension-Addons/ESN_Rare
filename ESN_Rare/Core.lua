@@ -302,7 +302,7 @@ end
 function ESN_Rare:GenerateMacro(name)
 	if InCombatLockdown() then return end	
 	local macroIndex = GetMacroIndexByName("Rare")
-	local body = "/targetexact "..name.."\n/script if UnitExists(\"target\") and GetUnitName(\"target\") == \""..name.."\" then SetRaidTargetIcon(\"target\",8)"
+	local body = "/targetexact "..name.."\n/script if UnitExists(\"target\") and GetUnitName(\"target\") == \""..name.."\" then SetRaidTargetIcon(\"target\",8) end"
 	if macroIndex == 0 then
 		local numglobal,numperchar = GetNumMacros()
 		if numglobal < MAX_ACCOUNT_MACROS then
